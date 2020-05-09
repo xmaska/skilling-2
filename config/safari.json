@@ -1,0 +1,25 @@
+{
+  "user": "username",
+  "key": "password",
+  "capabilities": {
+    "build": "behave-browserstack",
+    "name": "dummyTestingForReporting",
+    "browserstack.networkLogs": false,
+    "browserstack.debug": true,
+    "browserstack.use_w3c": true,
+    "browserstack.local": false
+  },
+  "environments": [
+    {
+      "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "Safari",
+      "browser_version": "12.0",
+      "resolution": "1920x1080",
+      "browserstack.local": "false",
+      "browserstack.debug": "true",
+      "browserstack.timezone": "UTC+2",
+      "browserstack.selenium_version": "3.14.0"
+    }
+  ]
+}
